@@ -1,0 +1,56 @@
+body {
+    background-color: antiquewhite;
+    max-width: 400px;
+    margin: 100px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: dimgray;
+    font-size: 40px;
+    text-align: center;
+}
+
+input {
+    height: 40px;
+    border: 2px solid dimgray;
+    background-color: aliceblue;
+    outline: none;
+    width: 78%;
+}
+
+button {
+    border: none;
+    height: 44px;
+    background-color: rgb(90, 83, 83);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 70px;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: dimgray;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    color: rgb(255, 251, 251);
+    font-weight: bolder;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span {
+    cursor: pointer;
+}
